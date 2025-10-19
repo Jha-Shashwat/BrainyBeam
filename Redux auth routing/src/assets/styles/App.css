@@ -1,0 +1,62 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.auth-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #718096;
+}
+
+.card-content {
+  margin-bottom: 30px;
+}
+
+.state-viewer {
+  padding-top: 24px;
+  border-top: 1px solid #e2e8f0;
+  margin-top: 24px;
+}
+
+.state-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 8px;
+}
+
+.state-item {
+  font-size: 14px;
+  color: #4a5568;
+  margin-bottom: 4px;
+}
+
+.state-value {
+  font-family: 'Courier New', monospace;
+  color: #5a67d8;
+  font-weight: 600;
+}

@@ -1,0 +1,39 @@
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.welcome-card {
+  background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
+  border: 2px solid #86efac;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.welcome-message {
+  color: #065f46;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.user-name {
+  font-weight: 700;
+  color: #047857;
+}
+
+.btn-logout {
+  background-color: #ef4444;
+  color: white;
+}
+
+.btn-logout:hover {
+  background-color: #dc2626;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+}
+
+.btn-logout:active {
+  transform: translateY(0);
+}
