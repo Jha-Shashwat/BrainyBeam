@@ -1,4 +1,5 @@
 Aim: Fetch and display data from a public API (TVMaze).
+
 Highlights:
 
 -> Fetches TV show data using fetch() or axios inside useEffect
