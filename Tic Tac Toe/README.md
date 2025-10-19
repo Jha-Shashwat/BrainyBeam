@@ -1,4 +1,5 @@
 Aim: Build a two-player Tic-Tac-Toe game with automatic winner detection.
+
 Highlights:
 
 -> 3×3 game grid with alternating turns between “X” and “O”
