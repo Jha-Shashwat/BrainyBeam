@@ -1,16 +1,18 @@
-# React + Vite
+Aim: Demonstrate global state management for user authentication using Redux.
+Highlights:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-> Redux Toolkit store with auth slice
 
-Currently, two official plugins are available:
+-> Actions for login/logout updating global state dynamically
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-> Login UI updates welcome message based on Redux state
 
-## React Compiler
+-> Logout clears authentication state
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-> Uses useSelector and useDispatch hooks
 
-## Expanding the ESLint configuration
+-> Clean separation of components and state logic
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Screenshots of website:
+<img width="1919" height="864" alt="image" src="https://github.com/user-attachments/assets/ebb50fbc-d797-49be-80c8-77d1e5ce2b18" />
+<img width="1919" height="865" alt="image" src="https://github.com/user-attachments/assets/7d690a37-dd2d-4317-9f8f-9219642b884f" />
