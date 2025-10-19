@@ -1,4 +1,3 @@
-// src/components/Board.jsx
 import Square from './Square';
 
 function Board({ squares, onPlay, xIsNext }) {

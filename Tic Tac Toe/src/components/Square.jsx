@@ -1,4 +1,3 @@
-// src/components/Square.jsx
 function Square({ value, onSquareClick }) {
   return (
     <button className="square" onClick={onSquareClick}>
