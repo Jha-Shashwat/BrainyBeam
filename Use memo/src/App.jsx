@@ -1,4 +1,3 @@
-// src/App.jsx
 import ParentComponent from './components/ParentComponent';
 
 function App() {

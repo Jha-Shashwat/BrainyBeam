@@ -1,4 +1,3 @@
-// src/components/ParentComponent.jsx
 import { useState, useMemo, useCallback } from 'react';
 import ChildComponent from './ChildComponent';
 

@@ -1,4 +1,3 @@
-// src/components/ChildComponent.jsx
 import { memo, useState } from 'react';
 
 function ChildComponent({ todos, onAddTodo }) {
