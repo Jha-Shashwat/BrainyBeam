@@ -1,16 +1,18 @@
-# React + Vite
+Aim: Optimize parent-child component re-renders using useMemo and React.memo.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Highlights:
 
-Currently, two official plugins are available:
+-> Parent component manages a counter
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-> Child component manages a todo list
 
-## React Compiler
+-> Memoization prevents unnecessary child re-renders when the parent updates
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-> Demonstrates performance optimization in React
 
-## Expanding the ESLint configuration
+-> Console logs show component render behavior
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Screenshots of website:
+<img width="1903" height="858" alt="image" src="https://github.com/user-attachments/assets/560ec997-b892-4dcf-86ff-fdff61dd7c22" />
+<img width="1919" height="867" alt="image" src="https://github.com/user-attachments/assets/9819bee8-9550-4f93-b9ee-a049f1d775b6" />
+<img width="1919" height="835" alt="image" src="https://github.com/user-attachments/assets/f94d1c40-e672-42b9-8d0e-eec323b4074d" />
